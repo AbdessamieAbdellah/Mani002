@@ -1,0 +1,24 @@
+.homeDiv{
+    display: block;
+    /* background:rgb(123, 255, 0); */
+    color:rgb(50, 255, 23);
+    background-color: white;
+    /* background-image: 'images/moroccoFlag.jpg'; */
+  }
+  .text-center{
+    display: block;
+    font-size: 2em;
+    margin:auto;
+    font-weight: bold;
+  }
+  .text-h5{
+    display: block;
+    text-align: center; 
+    font-size: 1em;
+    margin-top: 0;
+    margin-bottom: 3;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight:lighter; 
+    color: rgb(144, 236, 243);
+  }

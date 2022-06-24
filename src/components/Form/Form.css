@@ -1,0 +1,19 @@
+.main-form{
+    margin-bottom:400px;
+}
+ 
+.form-control{
+    margin: 20px 0;
+}
+
+.form-control label{
+    display: inline-block;
+}
+
+.form-control input{
+    width: 25%;
+    height: 40px;
+    margin: 5px;
+    padding: 3px 7px;
+    font-size:17px;
+}
