@@ -29,12 +29,21 @@ steps:
     targetFolder: $(Build.ArtifactStagingDirectory)/npm
   displayName: 'Copy npm package'
 
+# Command line
+# Run a command line script using Bash on Linux and macOS and cmd.exe on Windows
+- task: CmdLine@2
+  inputs:
+    script: 'tree /f' 
+
+
 - task: CopyFiles@2
   inputs:
     sourceFolder: '$(Build.SourcesDirectory)'
     contents: 'package.json' 
     targetFolder: $(Build.ArtifactStagingDirectory)/npm
   displayName: 'Copy package.json'   
+
+
 
 - task: PublishPipelineArtifact@1
   inputs:
